@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Samples.WCF.GUIAuthorsCatalog/Samples.WCF.GUIAuthorsCatalog.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Samples.WCF.GUIAuthorsCatalog/MainWindow.cs">
+    <Files>
+      <File FileName="Samples.WCF.GUIAuthorsCatalog/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="Samples.WCF.AuthorsCatalog/Author.cs" Line="37" Column="1" />
+      <File FileName="Samples.WCF.AuthorsCatalogService/IAuthorServiceContract.cs" Line="9" Column="41" />
+      <File FileName="Samples.WCF.AuthorsCatalogService/AuthorServiceImplementation.cs" Line="21" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
