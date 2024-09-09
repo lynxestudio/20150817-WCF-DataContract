@@ -85,20 +85,26 @@ Para ejecutar la solución primeramente ejecutamos el programa de consola <i>[Sa
         <pre>
             $ mono Samples.AuthorsServiceHost.exe
         </pre>
-        <div>Fig 1. Ejecytando el servidor desde la linea de comando</div><br>
+        <div>Fig 1. Ejecutando el servidor desde la linea de comando</div><br>
+        <img src="images/fig1.png" width="668" height="364" alt="">
         <p>Ahora ejecutamos la solución cliente.</p>
         <div>
         <div>Fig 2. Iniciando el cliente</div>
         </div><br>
+        <img src="images/fig2.png" width="609" height="378" alt="">
         <p align="justify">Podemos probar la aplicación al agregar un par de autores, como se muestran en la siguientes imágenes, después de ingresar cada autor pulsamos el botón <i>refresh grid</i></p>
         <div>Fig 3. Agregando un nuevo autor</div><br>
         <div>
         </div><br>
+        <img src="images/fig3.png" width="609" height="378" alt=""><br/>
+        <div><img src="images/fig4.png" width="609" height="378" alt=""></div>
         <div>Fig 4. Pulsando el boton refrescar </div><br>
+        <img src="images/fig5.png" width="609" height="378" alt="">
         <p>Cada uno de estos eventos se manejan a tráves de la clase proxy que se genera con el siguiente comando aplicándolo a la dll del servicio.</p>
         <pre>
             $svcutil /out:AuthorServiceReference.cs  Samples.WCF.AuthorsCatalogService.dll
         </pre>
         <div>Fig 5. El cliente y el servidor en ejecuccion</div><br>
+        <img src="images/fig5.png" width="609" height="378" alt="">
         <p><h2>Conclusión</h2></p>
         <p>WCF proporciona facilidades para tomar el control de la serialización de datos. Sin embargo, hay que entender que entre más control manual tomes de tus servicios estos tenderán a ser menos interoperables.</p>
